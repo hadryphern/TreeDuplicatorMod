@@ -1,0 +1,64 @@
+<svg width="1280" height="860" viewBox="0 0 1280 860" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="90" y1="48" x2="1194" y2="794" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E2518"/>
+      <stop offset="1" stop-color="#173A29"/>
+    </linearGradient>
+    <linearGradient id="card" x1="86" y1="184" x2="1190" y2="654" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#163927" stop-opacity="0.98"/>
+      <stop offset="1" stop-color="#112C1E" stop-opacity="0.98"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="860" rx="36" fill="url(#bg)"/>
+  <circle cx="1136" cy="132" r="96" fill="#76D26A" fill-opacity="0.10"/>
+  <circle cx="120" cy="726" r="110" fill="#C8FF82" fill-opacity="0.08"/>
+
+  <text x="84" y="112" fill="#C2F8A0" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="18" font-weight="700" letter-spacing="2">GAMEPLAY FLOW</text>
+  <text x="82" y="164" fill="#F3F9ED" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="56" font-weight="700">How The Tree Works</text>
+  <text x="84" y="204" fill="#C7E6CF" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="24">Current mechanics for worldgen, regrowth, activation, timing, and reuse.</text>
+
+  <rect x="70" y="252" width="520" height="252" rx="28" fill="url(#card)" stroke="#79D36D" stroke-opacity="0.16" stroke-width="2"/>
+  <rect x="612" y="252" width="598" height="252" rx="28" fill="url(#card)" stroke="#79D36D" stroke-opacity="0.16" stroke-width="2"/>
+  <rect x="70" y="530" width="520" height="252" rx="28" fill="url(#card)" stroke="#79D36D" stroke-opacity="0.16" stroke-width="2"/>
+  <rect x="612" y="530" width="598" height="252" rx="28" fill="url(#card)" stroke="#79D36D" stroke-opacity="0.16" stroke-width="2"/>
+
+  <circle cx="122" cy="304" r="28" fill="#7ED96D"/>
+  <text x="112" y="313" fill="#102617" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="24" font-weight="700">1</text>
+  <text x="166" y="314" fill="#F3F9ED" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="30" font-weight="700">Find The Tree</text>
+  <text x="102" y="364" fill="#D5EED6" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="20">Modern versions generate the tree very rarely in</text>
+  <text x="102" y="392" fill="#D5EED6" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="20">underground Lush Caves, tied to cave space instead</text>
+  <text x="102" y="420" fill="#D5EED6" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="20">of normal surface forest worldgen.</text>
+  <text x="102" y="462" fill="#A4DF82" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="18" font-weight="700">Legacy branches keep the mechanic with fallback worldgen.</text>
+
+  <circle cx="664" cy="304" r="28" fill="#D0FF82"/>
+  <text x="654" y="313" fill="#233213" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="24" font-weight="700">2</text>
+  <text x="708" y="314" fill="#F3F9ED" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="30" font-weight="700">Grow It From One Log</text>
+  <text x="644" y="364" fill="#D5EED6" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="20">A placed Duplicator Log regrows into the full tree.</text>
+  <text x="644" y="392" fill="#D5EED6" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="20">The intended shape is a vanilla-style canopy with a</text>
+  <text x="644" y="420" fill="#D5EED6" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="20">4-block trunk, and the full rebuild takes 20 minutes.</text>
+  <rect x="644" y="450" width="196" height="34" rx="17" fill="#79D36D"/>
+  <text x="684" y="472" fill="#112819" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="16" font-weight="700">FULL TREE REQUIRED</text>
+
+  <circle cx="122" cy="582" r="28" fill="#84E2AE"/>
+  <text x="112" y="591" fill="#143424" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="24" font-weight="700">3</text>
+  <text x="166" y="592" fill="#F3F9ED" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="30" font-weight="700">Trigger Duplication</text>
+  <text x="102" y="642" fill="#D5EED6" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="20">Place any placeable block directly next to the trunk.</text>
+  <text x="102" y="670" fill="#D5EED6" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="20">The side does not matter. That adjacent block becomes</text>
+  <text x="102" y="698" fill="#D5EED6" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="20">the source block for the duplication cycle.</text>
+  <rect x="102" y="724" width="210" height="34" rx="17" fill="#C8FF82"/>
+  <text x="146" y="746" fill="#263513" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="16" font-weight="700">ANY SIDE OF TRUNK</text>
+
+  <circle cx="664" cy="582" r="28" fill="#7ED96D"/>
+  <text x="654" y="591" fill="#102617" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="24" font-weight="700">4</text>
+  <text x="708" y="592" fill="#F3F9ED" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="30" font-weight="700">Finish One Full Cycle</text>
+  <text x="644" y="642" fill="#D5EED6" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="20">The copied blocks spread through a full 5x5 area around</text>
+  <text x="644" y="670" fill="#D5EED6" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="20">the trunk over 10 minutes. When the area is complete,</text>
+  <text x="644" y="698" fill="#D5EED6" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="20">the tree stops until the trigger block is removed and placed again.</text>
+  <rect x="644" y="724" width="254" height="34" rx="17" fill="#84E2AE"/>
+  <text x="689" y="746" fill="#153826" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="16" font-weight="700">ONE ACTIVATION PER CYCLE</text>
+
+  <rect x="854" y="96" width="324" height="84" rx="24" fill="#153525" stroke="#79D36D" stroke-opacity="0.18"/>
+  <text x="884" y="128" fill="#B1EE8E" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="16" font-weight="700">DROPS AND REUSE</text>
+  <text x="884" y="156" fill="#F3F9ED" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="20">Logs drop normally. Leaves stay vanilla-like and are best collected with shears.</text>
+</svg>

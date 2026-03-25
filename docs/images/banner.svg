@@ -1,43 +1,82 @@
-<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#102A1B"/>
-      <stop offset="1" stop-color="#1B4332"/>
+    <linearGradient id="bg" x1="84" y1="28" x2="1216" y2="392" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D2417"/>
+      <stop offset="0.55" stop-color="#153726"/>
+      <stop offset="1" stop-color="#204632"/>
     </linearGradient>
-    <linearGradient id="panel" x1="180" y1="52" x2="1112" y2="308" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#1F5135" stop-opacity="0.92"/>
-      <stop offset="1" stop-color="#122E20" stop-opacity="0.92"/>
+    <linearGradient id="panel" x1="110" y1="68" x2="1170" y2="332" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#143523" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#112B1E" stop-opacity="0.96"/>
     </linearGradient>
+    <linearGradient id="glow" x1="202" y1="110" x2="356" y2="264" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D8FF9C" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#75C765" stop-opacity="0.12"/>
+    </linearGradient>
+    <filter id="soft" x="-40" y="-40" width="1360" height="500" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
   </defs>
 
-  <rect width="1280" height="360" rx="28" fill="url(#bg)"/>
-  <circle cx="1090" cy="82" r="84" fill="#67C587" fill-opacity="0.08"/>
-  <circle cx="1180" cy="250" r="120" fill="#C6F68D" fill-opacity="0.06"/>
-  <rect x="44" y="44" width="1192" height="272" rx="26" fill="url(#panel)" stroke="#79D36D" stroke-opacity="0.18"/>
-
-  <g transform="translate(110 82)">
-    <rect x="64" y="110" width="24" height="88" rx="8" fill="#7B4F27"/>
-    <rect x="30" y="76" width="92" height="54" rx="16" fill="#86C45F"/>
-    <rect x="8" y="46" width="136" height="46" rx="16" fill="#78B957"/>
-    <rect x="36" y="16" width="80" height="44" rx="16" fill="#9ADE6C"/>
-    <rect x="110" y="154" width="28" height="28" rx="6" fill="#79D36D"/>
-    <rect x="146" y="154" width="28" height="28" rx="6" fill="#79D36D"/>
-    <rect x="182" y="154" width="28" height="28" rx="6" fill="#79D36D"/>
-    <rect x="110" y="190" width="28" height="28" rx="6" fill="#79D36D"/>
-    <rect x="146" y="190" width="28" height="28" rx="6" fill="#C4FF86"/>
-    <rect x="182" y="190" width="28" height="28" rx="6" fill="#79D36D"/>
-    <rect x="110" y="226" width="28" height="28" rx="6" fill="#79D36D"/>
-    <rect x="146" y="226" width="28" height="28" rx="6" fill="#79D36D"/>
-    <rect x="182" y="226" width="28" height="28" rx="6" fill="#79D36D"/>
+  <rect width="1280" height="420" rx="34" fill="url(#bg)"/>
+  <g filter="url(#soft)">
+    <circle cx="1098" cy="90" r="84" fill="#6FCD76" fill-opacity="0.18"/>
+    <circle cx="1186" cy="286" r="112" fill="#B8F36A" fill-opacity="0.11"/>
+    <circle cx="170" cy="78" r="72" fill="#8CEB76" fill-opacity="0.09"/>
   </g>
 
-  <text x="380" y="138" fill="#EAF7E7" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="700">Block Duplicator Tree</text>
-  <text x="382" y="186" fill="#BFE6C8" font-family="Segoe UI, Arial, sans-serif" font-size="24">Forge and Fabric monorepo for modern and legacy Minecraft versions</text>
-  <text x="382" y="226" fill="#D9F5C8" font-family="Segoe UI, Arial, sans-serif" font-size="20">Rare tree • Regrowth from a single log • Slow 5x5 duplication cycle</text>
+  <path d="M0 78C124 42 228 38 350 76C496 122 596 118 736 74C878 28 998 24 1280 92V0H0V78Z" fill="#0B1D13" fill-opacity="0.42"/>
+  <path d="M0 332C112 352 234 344 346 314C494 274 634 272 784 322C920 368 1058 370 1280 326V420H0V332Z" fill="#0B1D13" fill-opacity="0.36"/>
 
-  <rect x="382" y="252" width="176" height="40" rx="20" fill="#79D36D"/>
-  <text x="414" y="278" fill="#102617" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">20 MIN REGROWTH</text>
+  <rect x="52" y="46" width="1176" height="328" rx="30" fill="url(#panel)" stroke="#76D26A" stroke-opacity="0.16" stroke-width="2"/>
+  <rect x="90" y="88" width="308" height="244" rx="28" fill="#1B4A31"/>
+  <rect x="90" y="88" width="308" height="244" rx="28" fill="url(#glow)" fill-opacity="0.5"/>
 
-  <rect x="574" y="252" width="194" height="40" rx="20" fill="#C4FF86"/>
-  <text x="608" y="278" fill="#223014" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">10 MIN DUPLICATION</text>
+  <path d="M120 286C154 236 188 208 226 206C258 204 286 220 312 256C334 286 352 296 376 296H120V286Z" fill="#0E2418" fill-opacity="0.9"/>
+  <path d="M124 286C156 246 190 222 220 220C252 218 282 234 310 266C328 286 346 296 368 296H124V286Z" fill="#102A1C"/>
+
+  <g transform="translate(156 108)">
+    <rect x="74" y="98" width="28" height="104" rx="10" fill="#7E552D"/>
+    <rect x="36" y="62" width="106" height="52" rx="18" fill="#87C95C"/>
+    <rect x="16" y="34" width="146" height="44" rx="18" fill="#76B855"/>
+    <rect x="54" y="0" width="86" height="38" rx="16" fill="#A6EA6E"/>
+  </g>
+
+  <g transform="translate(234 210)">
+    <rect x="0" y="0" width="26" height="26" rx="6" fill="#72CA67"/>
+    <rect x="34" y="0" width="26" height="26" rx="6" fill="#72CA67"/>
+    <rect x="68" y="0" width="26" height="26" rx="6" fill="#72CA67"/>
+    <rect x="0" y="34" width="26" height="26" rx="6" fill="#72CA67"/>
+    <rect x="34" y="34" width="26" height="26" rx="6" fill="#D9FF8C"/>
+    <rect x="68" y="34" width="26" height="26" rx="6" fill="#72CA67"/>
+    <rect x="0" y="68" width="26" height="26" rx="6" fill="#72CA67"/>
+    <rect x="34" y="68" width="26" height="26" rx="6" fill="#72CA67"/>
+    <rect x="68" y="68" width="26" height="26" rx="6" fill="#72CA67"/>
+  </g>
+
+  <text x="444" y="136" fill="#C0F4A1" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="18" font-weight="700" letter-spacing="2">RARE UNDERGROUND TREE MOD</text>
+  <text x="442" y="194" fill="#F2F8EA" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="58" font-weight="700">Block Duplicator Tree</text>
+  <text x="444" y="238" fill="#C6E7CF" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="24">Forge and Fabric monorepo for modern and legacy Minecraft versions</text>
+  <text x="444" y="274" fill="#D7F0D2" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="19">Vanilla-shaped tree / single-log regrowth / timed 5x5 block duplication</text>
+
+  <rect x="444" y="306" width="164" height="40" rx="20" fill="#7CD86B"/>
+  <text x="478" y="332" fill="#102617" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="18" font-weight="700">LUSH CAVES SPAWN</text>
+
+  <rect x="624" y="306" width="170" height="40" rx="20" fill="#C8FF82"/>
+  <text x="659" y="332" fill="#263513" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="18" font-weight="700">20 MIN REGROWTH</text>
+
+  <rect x="810" y="306" width="168" height="40" rx="20" fill="#84E2AE"/>
+  <text x="848" y="332" fill="#123321" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="18" font-weight="700">10 MIN CYCLE</text>
+
+  <rect x="1018" y="92" width="168" height="68" rx="22" fill="#123021" stroke="#6DC56B" stroke-opacity="0.2"/>
+  <text x="1046" y="120" fill="#9AE177" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="15" font-weight="700">LOADERS</text>
+  <text x="1046" y="146" fill="#F2F8EA" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="24" font-weight="700">Forge + Fabric</text>
+
+  <rect x="1018" y="178" width="168" height="68" rx="22" fill="#123021" stroke="#6DC56B" stroke-opacity="0.2"/>
+  <text x="1046" y="206" fill="#9AE177" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="15" font-weight="700">VERSION RANGE</text>
+  <text x="1046" y="232" fill="#F2F8EA" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="24" font-weight="700">1.7.10 - 1.21.6</text>
+
+  <rect x="1018" y="264" width="168" height="68" rx="22" fill="#123021" stroke="#6DC56B" stroke-opacity="0.2"/>
+  <text x="1046" y="292" fill="#9AE177" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="15" font-weight="700">TRIGGER</text>
+  <text x="1046" y="318" fill="#F2F8EA" font-family="'Trebuchet MS', 'Verdana', sans-serif" font-size="24" font-weight="700">Adjacent block</text>
 </svg>
