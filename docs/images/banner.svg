@@ -1,0 +1,43 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102A1B"/>
+      <stop offset="1" stop-color="#1B4332"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="180" y1="52" x2="1112" y2="308" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1F5135" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#122E20" stop-opacity="0.92"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="360" rx="28" fill="url(#bg)"/>
+  <circle cx="1090" cy="82" r="84" fill="#67C587" fill-opacity="0.08"/>
+  <circle cx="1180" cy="250" r="120" fill="#C6F68D" fill-opacity="0.06"/>
+  <rect x="44" y="44" width="1192" height="272" rx="26" fill="url(#panel)" stroke="#79D36D" stroke-opacity="0.18"/>
+
+  <g transform="translate(110 82)">
+    <rect x="64" y="110" width="24" height="88" rx="8" fill="#7B4F27"/>
+    <rect x="30" y="76" width="92" height="54" rx="16" fill="#86C45F"/>
+    <rect x="8" y="46" width="136" height="46" rx="16" fill="#78B957"/>
+    <rect x="36" y="16" width="80" height="44" rx="16" fill="#9ADE6C"/>
+    <rect x="110" y="154" width="28" height="28" rx="6" fill="#79D36D"/>
+    <rect x="146" y="154" width="28" height="28" rx="6" fill="#79D36D"/>
+    <rect x="182" y="154" width="28" height="28" rx="6" fill="#79D36D"/>
+    <rect x="110" y="190" width="28" height="28" rx="6" fill="#79D36D"/>
+    <rect x="146" y="190" width="28" height="28" rx="6" fill="#C4FF86"/>
+    <rect x="182" y="190" width="28" height="28" rx="6" fill="#79D36D"/>
+    <rect x="110" y="226" width="28" height="28" rx="6" fill="#79D36D"/>
+    <rect x="146" y="226" width="28" height="28" rx="6" fill="#79D36D"/>
+    <rect x="182" y="226" width="28" height="28" rx="6" fill="#79D36D"/>
+  </g>
+
+  <text x="380" y="138" fill="#EAF7E7" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="700">Block Duplicator Tree</text>
+  <text x="382" y="186" fill="#BFE6C8" font-family="Segoe UI, Arial, sans-serif" font-size="24">Forge and Fabric monorepo for modern and legacy Minecraft versions</text>
+  <text x="382" y="226" fill="#D9F5C8" font-family="Segoe UI, Arial, sans-serif" font-size="20">Rare tree • Regrowth from a single log • Slow 5x5 duplication cycle</text>
+
+  <rect x="382" y="252" width="176" height="40" rx="20" fill="#79D36D"/>
+  <text x="414" y="278" fill="#102617" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">20 MIN REGROWTH</text>
+
+  <rect x="574" y="252" width="194" height="40" rx="20" fill="#C4FF86"/>
+  <text x="608" y="278" fill="#223014" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">10 MIN DUPLICATION</text>
+</svg>

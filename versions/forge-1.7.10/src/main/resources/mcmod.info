@@ -1,0 +1,16 @@
+[
+{
+  "modid": "blockduplicatortree",
+  "name": "Block Duplicator Tree",
+  "description": "A legacy Forge port of the block duplicator tree focused on core duplication and regrowth behavior.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["blueDev"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

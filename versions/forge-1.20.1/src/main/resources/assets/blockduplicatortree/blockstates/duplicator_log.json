@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "blockduplicatortree:block/duplicator_log"
+    },
+    "axis=z": {
+      "model": "blockduplicatortree:block/duplicator_log_horizontal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "blockduplicatortree:block/duplicator_log_horizontal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

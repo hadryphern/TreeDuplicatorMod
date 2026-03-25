@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "blockduplicatortree:duplicator_log",
+    "blockduplicatortree:duplicator_leaves"
+  ]
+}

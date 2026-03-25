@@ -1,0 +1,43 @@
+# See https://docs.minecraftforge.net/en/1.21.x/gettingstarted/modfiles/#modstoml
+# There are lots of things you can do with the mods.toml, and not all fields are included with this MDK
+# References: https://github.com/MinecraftForge/MDKExamples
+
+modLoader="javafml"
+loaderVersion="[0,)"
+license="All Rights Reserved"
+#issueTrackerURL="https://github.com/MyOrganization/MyMod/" #optional
+#clientSideOnly=true #optional, default=false
+
+[[mods]]
+modId="blockduplicatortree"
+version="0.1.0-alpha"
+displayName="Block Duplicator Tree"
+#updateJSONURL="https://example.com/updates.json" #optional
+#displayURL="https://example.com/" #optional
+#logoFile="examplemod.png" #optional
+#credits="" #optional
+authors="blueDev" #optional
+#displayTest="MATCH_VERSION" #optional, default=MATCH_VERSION when not clientSideOnly, else IGNORE_ALL_VERSION
+
+# Access Transformers
+# Optional, if not specified Forge will attempt to find the default META-INF/accesstransformer.cfg and silently continue if not found. May default to an empty list in a future MC.
+# If you specify AT path strings in this list, Forge will attempt to load each of them and throw errors for any that aren't found.
+# Specifying an empty list when your mod has no ATs is recommended to opt-out of the default for slightly better loading performance.
+#accessTransformers = []
+
+description='''A rare underground tree that regrows from a single log and slowly duplicates nearby placeable blocks in a 5x5 field.'''
+
+[[dependencies.blockduplicatortree]] #recommended
+    modId="forge"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.blockduplicatortree]] #recommended
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21.3,1.22,)"
+    ordering="NONE"
+    side="BOTH"
+
